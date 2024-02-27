@@ -1,0 +1,53 @@
+API Aplication Programming Interface 
+
+
+****API holo muloto Database er sathe get post request er communication 
+
+****JSON Javascript Object Notation 
+
+
+****JSON holo muloto javascript kono file keh json ehh convert kora 
+
+const stringified = JSON.stringify(user);
+
+Kono object bah onno kichu datatype keh json ehh convert korar jonne stringified method use hoy. JSON file ehh property ghula string ehhh convert hoye jhay. SOb Value property ghula string keh doublr quotation ehh bosai dey 
+
+***JSOn file normally string type er hoye thake
+
+****Stringfy diye object bah kono kichu json string ehh convert kore ar string theke parse  diye object ehh convert kore
+
+***Patch MAne edit kora kono kichu keh
+
+***By default method tah GET thake
+
+
+***Put mane holo ager data keh delete kore diye nije place hobe ar jofi nah thake tahole seh creatye korbe. 
+
+***POST mane notun kichu add korbo
+
+***CRUD :CRUD is the acronym for CREATE,READ,UPDATE and DELETE
+
+*****ALso known as REst API Methods
+
+GET: GET is used to request data from any specified source
+
+POST: POST is used to send data to a server to create a resource
+
+
+DELETE: The DELETE method deletes the specified the resource
+
+PATCH: PATCH is used to send data to a server to update its resources.
+
+PUT: If does not exist then create a new resource is exist then replace the previous one.
+
+Status CODE:
+
+200: OK
+301: Moved Permanently
+302: Moved Temporarily
+404: Not Found
+500: Internal Server Error
+503: Service Unavailable
+
+
+****await keyword use korte hole function tah hote hobe async() noyto error dekhabe
